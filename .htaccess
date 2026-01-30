@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+DirectoryIndex homepage-1.html
+</IfModule>

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- End Stylesheet -->
+    <title>GrahaPrime - Careers</title>
+  </head>
+  <body>
+    <script src="./assets/js/vendor/jquery.min.js"></script>
+    <script src="./assets/js/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="inner-cursor"></div>
+    <!-- Header -->
+
+    <section class="border-bottom">
+      <div class="container">
+        <!-- Header Info -->
+        <div
+          class="d-flex justify-content-between align-items-center flex-lg-row flex-column p-lg-0 p-2 gap-2 gap-lg-0"
+        >
+          <!-- Site Logo -->
+          <div class="p-3 bg-primary">
+            <img
+              src="./assets/images/grahaprime-white-logo.png"
+              alt="grahaprime-white-logo"
+              class="img-fluid"
+              width="230"
+            />
+          </div>
+          <!-- Social Button -->
+          <ul class="d-flex gap-2 m-0 p-0 social-primary hide-on-mobile">
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                class="btn btn-social-link p-2"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn btn-social-link p-2">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn btn-social-link p-2">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" class="btn btn-social-link p-2">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark sticky-top">
+      <div class="container position-relative">
+        <div class="d-flex justify-content-between py-3">
+          <!-- Menus -->
+          <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+              <button
+                class="p-3 navbar-toggler btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link nav-dropdown" href="#"> Home </a>
+                    <ul class="nav-dropdown-menu">
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="homepage-1.html"
+                          >Homepage 01</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="homepage-2.html"
+                          >Homepage 02</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="homepage-3.html"
+                          >Homepage 03</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link nav-dropdown" href="#"> Pages </a>
+                    <ul class="nav-dropdown-menu">
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="history.html">History</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="our-team.html">Our Team</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link active" href="careers.html"
+                          >Careers</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="testimonials.html"
+                          >Testimonial</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="faqs.html">FAQS</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="404.html">404 Page</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="our-blog.html">Our Blog</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="blog-detail.html"
+                          >Blog Details</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link nav-dropdown" href="#"> Services </a>
+                    <ul class="nav-dropdown-menu">
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="service-style-1.html"
+                          >Services Style 1</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="service-style-2.html"
+                          >Services Style 2</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="service-style-3.html"
+                          >Services Style 3</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="service-detail.html"
+                          >Service Details</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link nav-dropdown" href="#"> Project </a>
+                    <ul class="nav-dropdown-menu">
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="project-style-1.html"
+                          >Project Style 1</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="project-style-2.html"
+                          >Project Style 2</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="project-style-3.html"
+                          >Project Style 3</a
+                        >
+                      </li>
+                      <li class="dropdown-item">
+                        <a class="nav-link" href="project-detail.html"
+                          >Project Details</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- End Menus -->
+          <div>
+            <a href="contact.html" class="btn btn-primary gap-3 text-nowrap"
+              >Get A Quote
+              <i class="rtmicon rtmicon-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Header -->
+
+    <main>
+      <section class="section position-relative">
+        <div class="container">
+          <div class="d-flex flex-column">
+            <span class="fw-semibold">SUPPORT CAREERS</span>
+            <h1 class="heading-hero fw-bold">BUILD WITH US</h1>
+            <div class="bg-dark p-3 border d-flex gap-2 w-fit-content">
+              <a href="homepage-1.html">HOME</a> -
+              <span>CARREERS</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="container-full-width position-absolute top-0 start-0 end-0 bottom-0"
+          style="z-index: -1"
+        >
+          <div class="row h-100 row-cols-lg-2 row-cols-1 g-0">
+            <div class="col">
+              <div
+                class="d-flex justify-content-center h-100 bg-primary bg-with-cover p-lg-5 p-4"
+              ></div>
+            </div>
+            <div class="col">
+              <div
+                class="overlay position-relative w-100 h-100"
+                style="
+                  background-image: url(./assets/images/dummy-image-1920x1280.jpg);
+                  background-size: cover;
+                  background-position: center;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-dark">
+        <div class="container bg-secondary p-4">
+          <div class="position-relative">
+            <img
+              src="./assets/images/dummy-image-1920x1280.jpg"
+              alt=""
+              class="img-fluid w-100 object-fit-cover"
+              style="aspect-ratio: 16/7"
+            />
+            <div class="position-absolute start-0 top-0 h-100 w-100">
+              <div
+                class="d-flex h-100 align-items-center justify-content-center"
+              >
+                <button
+                  class="btn btn-video border-4 fs-1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#videoModal"
+                  style="width: 6rem; height: 6rem"
+                >
+                  <i class="fa-solid fa-play"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center gap-3 mt-5"
+          >
+            <span class="subheading">JOIN NOW</span>
+            <h1>Working at Graha Prime & Ambitions</h1>
+            <hr class="border w-100" />
+          </div>
+          <div class="overflow-hidden">
+            <div class="swiper career-carousel">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <a
+                    href="./assets/images/dummy-image-1920x1280.jpg"
+                    data-fslightbox="careers"
+                  >
+                    <div class="p-2 bg-secondary-dark">
+                      <img
+                        src="./assets/images/dummy-image-1920x1280.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a
+                    href="./assets/images/dummy-image-1920x1280.jpg"
+                    data-fslightbox="careers"
+                  >
+                    <div class="p-2 bg-secondary-dark">
+                      <img
+                        src="./assets/images/dummy-image-1920x1280.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a
+                    href="./assets/images/dummy-image-1920x1280.jpg"
+                    data-fslightbox="careers"
+                  >
+                    <div class="p-2 bg-secondary-dark">
+                      <img
+                        src="./assets/images/dummy-image-1920x1280.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a
+                    href="./assets/images/dummy-image-1920x1280.jpg"
+                    data-fslightbox="careers"
+                  >
+                    <div class="p-2 bg-secondary-dark">
+                      <img
+                        src="./assets/images/dummy-image-1920x1280.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+            <div class="col">
+              <div class="d-flex flex-column p-4">
+                <span class="subheading fs-4">COMPETITIVE</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column p-4">
+                <span class="subheading fs-4">ENTERPRISING & THOROUGH</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column p-4">
+                <span class="subheading fs-4">WORKHARD</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column p-4">
+                <span class="subheading fs-4">COMPETITIVE</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="videoModal"
+        tabindex="-1"
+        aria-labelledby="videoModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <iframe
+              height="600"
+              src="https://www.youtube.com/embed/LMlCN6_vUvs?si=l4k-aAzKR_RCC121"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Open Position -->
+      <section class="section bg-dark">
+        <div class="container">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center gap-3 text-center"
+          >
+            <span class="subheading">JOIN NOW</span>
+            <h1>Open Positions</h1>
+            <p>
+              We specialize in a wide range of construction services, including
+              residential, commercial, and industrial projects.
+            </p>
+            <div class="d-flex gap-3">
+              <span class="font-heading fs-4 lh-1">SEND MAIL :</span>
+              <span class="d-flex gap-3 align-items-center lh-1">
+                <i class="fa-solid fa-envelope primary-color"></i>
+                example@mail.com
+              </span>
+            </div>
+            <hr class="border border-white w-100" />
+          </div>
+          <div class="row row-cols-lg-2 row-cols-1 g-4">
+            <div class="col">
+              <div
+                class="bg-secondary border border-start-0 border-end-0 border-bottom-0 border-5 border-primary p-4 d-flex flex-column gap-3"
+              >
+                <h5>
+                  <i class="fas fa-user primary-color"></i>
+                  PROJECT ADMINISTRATOR
+                </h5>
+                <p>
+                  Etiam pretium class quisque ultrices enim adipiscing hendrerit
+                  consectetur erat? Nec libero egestas tempus varius habitasse
+                  dictum. Suspendisse dui gravida faucibus et pretium, morbi
+                  quis. Vivamus ultricies fames cursus neque fames facilisis
+                  duis quisque mi.
+                </p>
+                <h5>Skill and Experience</h5>
+                <ul class="d-flex flex-column gap-3 mb-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Nec libero egestas tempus varius</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Vivamus ultricies fames cursus</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Volutpat ipsum lectus ipsum leo</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="bg-secondary border border-start-0 border-end-0 border-bottom-0 border-5 border-primary p-4 d-flex flex-column gap-3"
+              >
+                <h5>
+                  <i class="fas fa-user primary-color"></i>
+                  TECHNICAL ENGINEER
+                </h5>
+                <p>
+                  Etiam pretium class quisque ultrices enim adipiscing hendrerit
+                  consectetur erat? Nec libero egestas tempus varius habitasse
+                  dictum. Suspendisse dui gravida faucibus et pretium, morbi
+                  quis. Vivamus ultricies fames cursus neque fames facilisis
+                  duis quisque mi.
+                </p>
+                <h5>Skill and Experience</h5>
+                <ul class="d-flex flex-column gap-3 mb-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Nec libero egestas tempus varius</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Vivamus ultricies fames cursus</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Volutpat ipsum lectus ipsum leo</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="bg-secondary border border-start-0 border-end-0 border-bottom-0 border-5 border-primary p-4 d-flex flex-column gap-3"
+              >
+                <h5>
+                  <i class="fas fa-user primary-color"></i>
+                  ASSISTANT MANAGER
+                </h5>
+                <p>
+                  Etiam pretium class quisque ultrices enim adipiscing hendrerit
+                  consectetur erat? Nec libero egestas tempus varius habitasse
+                  dictum. Suspendisse dui gravida faucibus et pretium, morbi
+                  quis. Vivamus ultricies fames cursus neque fames facilisis
+                  duis quisque mi.
+                </p>
+                <h5>Skill and Experience</h5>
+                <ul class="d-flex flex-column gap-3 mb-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Nec libero egestas tempus varius</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Vivamus ultricies fames cursus</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Volutpat ipsum lectus ipsum leo</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="bg-secondary border border-start-0 border-end-0 border-bottom-0 border-5 border-primary p-4 d-flex flex-column gap-3"
+              >
+                <h5>
+                  <i class="fas fa-user primary-color"></i>
+                  CARPENTER TEAM LEAD
+                </h5>
+                <p>
+                  Etiam pretium class quisque ultrices enim adipiscing hendrerit
+                  consectetur erat? Nec libero egestas tempus varius habitasse
+                  dictum. Suspendisse dui gravida faucibus et pretium, morbi
+                  quis. Vivamus ultricies fames cursus neque fames facilisis
+                  duis quisque mi.
+                </p>
+                <h5>Skill and Experience</h5>
+                <ul class="d-flex flex-column gap-3 mb-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Nec libero egestas tempus varius</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Vivamus ultricies fames cursus</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span> Volutpat ipsum lectus ipsum leo</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i
+                      aria-hidden="true"
+                      class="fas fa-check-square primary-color"
+                    ></i>
+                    <span>Lorem ipsum odor amet</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="section">
+        <div class="container">
+          <div class="row row-cols-lg-4 row-cols-1 g-5">
+            <div class="col">
+              <div class="d-flex flex-column gap-5 h-100 pe-5">
+                <img
+                  src="./assets/images/grahaprime-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+                <ul class="d-flex gap-2 m-0 p-0 social-secondary-dark">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/"
+                      class="btn btn-social-link p-2"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="btn btn-social-link p-2">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="btn btn-social-link p-2">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="btn btn-social-link p-2">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column gap-3 h-100">
+                <h5 class="m-0">SERVICES</h5>
+                <ul class="footer-links">
+                  <li><a href="#">Building Renovation</a></li>
+                  <li><a href="#">General Construction</a></li>
+                  <li><a href="#">Flooring & Roofing</a></li>
+                  <li><a href="#">Repair & Expand</a></li>
+                  <li><a href="#">Design & Interior</a></li>
+                  <li><a href="#">Building Maintenance</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column gap-3 h-100">
+                <h5 class="m-0">ABOUT LINK</h5>
+                <ul class="footer-links">
+                  <li><a href="#">Our History</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="#">Careers Support</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex flex-column gap-3">
+                <h5>SUBSCRIBE NEWSLETTER</h5>
+                <span
+                  >Join our Newsletter to Stay up to date on Features &
+                  Releases.</span
+                >
+                <form class="form">
+                  <input type="hidden" name="action" value="subscribe" />
+                  <div class="input-group p-3 border">
+                    <input
+                      type="email"
+                      class="form-control border-0 p-0"
+                      placeholder="Enter your email"
+                      aria-label="Enter your email"
+                      aria-describedby="button-addon2"
+                      required
+                    />
+                    <button
+                      class="btn btn-primary"
+                      type="submit"
+                      id="button-addon2"
+                      style="width: 50px; height: 50px"
+                    >
+                      <i class="rtmicon rtmicon-arrow-up-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="success_subscribe bg-dark glass-effect position-fixed bottom-0 end-0 toast align-items-center w-100 mb-3 rounded-0 my-4 w-fit-content"
+        id="liveToast"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex p-2">
+          <div
+            class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-success"
+          >
+            <i class="fa-solid fa-check f-36 text-success"></i>
+            Your Subscribe Successfully Send.
+          </div>
+          <button
+            type="button"
+            class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-success"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./assets/js/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/animation_heading.js"></script>
+    <script src="./assets/js/animated_circle_text.js"></script>
+    <script src="./assets/js/filter_gallery.js"></script>
+    <script src="./assets/js/marquee.js"></script>
+    <script src="./assets/js/vendor/fslightbox.js"></script>
+    <script src="./assets/js/share.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <!-- End JavaScript -->
+  </body>
+</html>
